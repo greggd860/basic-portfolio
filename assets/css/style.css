@@ -1,0 +1,117 @@
+/**
+ * Float Layout Activity
+ **/
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  /* INSTRUCTOR: Here is the filled out version of the float activity */
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+
+  h0 {
+    border-style: solid;
+    border-width: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(241, 245, 245);
+    background: rgb(54, 9, 24);
+    
+  }
+
+  h1 {
+    border-style: solid;
+    border-width: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    color: rgb(143, 17, 34);
+    background: #ccc;
+  }
+
+  p {
+    border-style: dotted;
+    border-width: 4px;
+    float: right;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ccc;
+  }
+
+  div {
+    background-color: lightblue;
+    width: 200px;
+    padding: 25px;
+    border: 25px solid navy;
+}
+
+  /* Bio-box on Index page */
+
+  #bio-box {
+    float: left;
+    width: 25%;
+    color: #fff;
+    background: #666;
+  }
+  #left {
+    float: left;
+    width: 25%;
+    color: #fff;
+    background: #666;
+  }
+  #middle {
+    float: left;
+    width: 25%;
+    color: #fff;
+    background: #888;
+  }
+  #right {
+    float: left;
+    width: 25%;
+    color: #fff;
+    background: #666;
+  }
+  #full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #eee;
+  }
+  #division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #6ea3da;
+  }
+
+  
+  aside {
+    float: left;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+  footer {
+    padding: 20px;
+    clear: both;
+    background: #ccc;
+  }
